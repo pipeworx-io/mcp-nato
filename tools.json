@@ -1,0 +1,50 @@
+[
+  {
+    "name": "spell_nato",
+    "description": "Spell text using the NATO phonetic alphabet (A -> \"Alfa\", B -> \"Bravo\"…). Great for reading codes/confirmation numbers aloud. Keyless, offline.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "The text to spell."
+        }
+      },
+      "required": [
+        "text"
+      ]
+    }
+  },
+  {
+    "name": "morse_encode",
+    "description": "Encode text to Morse code (letters separated by spaces, words by \" / \"). Keyless, offline.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "The text to encode."
+        }
+      },
+      "required": [
+        "text"
+      ]
+    }
+  },
+  {
+    "name": "morse_decode",
+    "description": "Decode Morse code back to text. Accepts letters separated by spaces and words by \"/\" or \"  \" (double space). Keyless, offline.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "morse": {
+          "type": "string",
+          "description": "Morse code, e.g. \".... .. / - .... . .-. .\""
+        }
+      },
+      "required": [
+        "morse"
+      ]
+    }
+  }
+]
