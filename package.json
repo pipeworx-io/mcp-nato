@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-nato",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Phonetic & Morse code MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "nato",
     "gatewaySlug": "nato",
-    "sourceHash": "v1-df2beccdf00be61a7ad45d91716f7e897732e2a450f46fa139900167ec6338b4",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-5e05674941c750746bc3557d3c654681540ca339f892cba98ae96cc99600d211",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
